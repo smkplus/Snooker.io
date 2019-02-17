@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "3d-pool",
+"dataUrl": "Biliard.data.unityweb",
+"asmCodeUrl": "Biliard.asm.code.unityweb",
+"asmMemoryUrl": "Biliard.asm.memory.unityweb",
+"asmFrameworkUrl": "Biliard.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
