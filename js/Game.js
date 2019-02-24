@@ -9,30 +9,36 @@ var Game = function () {
     new WhiteBall(),
 
     // First row
-    
-    new Ball(X_offset, Ball.RADIUS, 4 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset, Ball.RADIUS, 2 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset, Ball.RADIUS, 0, 'whiteball'),
-    new Ball(X_offset, Ball.RADIUS, -2 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset, Ball.RADIUS, -4 * Ball.RADIUS, 'whiteball'),
+
+    new Ball(X_offset, Ball.RADIUS, 4 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset, Ball.RADIUS, 2 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset, Ball.RADIUS, 0, 'whiteball',0xff0000),
+    new Ball(X_offset, Ball.RADIUS, -2 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset, Ball.RADIUS, -4 * Ball.RADIUS, 'whiteball',0xff0000),
 
     // 2nd row
-    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, 3 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, -1 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, -3 * Ball.RADIUS, 'whiteball'),
+    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, 3 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, -1 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * Ball.RADIUS, Ball.RADIUS, -3 * Ball.RADIUS, 'whiteball',0xff0000),
 
     // 3rd row
-    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, 2 * Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, 0, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, -2 * Ball.RADIUS, 'whiteball'),
+    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, 2 * Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, 0, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * 2 * Ball.RADIUS, Ball.RADIUS, -2 * Ball.RADIUS, 'whiteball',0xff0000),
 
     //4th row
-    new Ball(X_offset - X_offset_2 * 3 * Ball.RADIUS, Ball.RADIUS, Ball.RADIUS, 'whiteball'),
-    new Ball(X_offset - X_offset_2 * 3 * Ball.RADIUS, Ball.RADIUS, -1 * Ball.RADIUS, 'whiteball'),
+    new Ball(X_offset - X_offset_2 * 3 * Ball.RADIUS, Ball.RADIUS, Ball.RADIUS, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * 3 * Ball.RADIUS, Ball.RADIUS, -1 * Ball.RADIUS, 'whiteball',0xff0000),
 
     //5th row
-    new Ball(X_offset - X_offset_2 * 4 * Ball.RADIUS, Ball.RADIUS, 0, '1bawhiteballll')
+    new Ball(X_offset - X_offset_2 * 4 * Ball.RADIUS, Ball.RADIUS, 0, 'whiteball',0xff0000),
+    new Ball(X_offset - X_offset_2 * 5 * Ball.RADIUS,Ball.RADIUS, 0, 'whiteball',0xff69b4),
+    new Ball(X_offset - X_offset_2 * 20 * Ball.RADIUS,Ball.RADIUS, 0, 'whiteball',0x997103),
+    new Ball(X_offset - X_offset_2 * 20 * Ball.RADIUS,Ball.RADIUS,20, 'whiteball',0x0059ff),
+    new Ball(X_offset - X_offset_2 * 20 * Ball.RADIUS,Ball.RADIUS,-20, 'whiteball',0xffff00),
+    new Ball(X_offset - X_offset_2 * -4 * Ball.RADIUS,Ball.RADIUS,0, 'whiteball',0x000000),
+  
   ];
 }
 

@@ -68,14 +68,16 @@ Ball.prototype.createMesh = function (x,y,z) {
     shading: THREE.SmoothShading
   });
 
-  if (typeof this.texture === 'undefined') {
-    material.color = new THREE.Color(this.color);
-  } else {
-    textureLoader.load(this.texture, function (tex) {
-      material.map = tex;
-      material.needsUpdate = true;
-    });
-  }
+  // if (typeof this.texture === 'undefined') {
+  //   material.color = new THREE.Color(this.color);
+  // } else {
+  //   textureLoader.load(this.texture, function (tex) {
+  //     material.map = tex;
+  //     material.needsUpdate = true;
+  //   });
+  // }
+
+  material.color = new THREE.Color(this.color);
 
   var sphere = new THREE.Mesh(geometry, material);
 
